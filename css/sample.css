@@ -1,0 +1,111 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  text-align: center;
+}
+
+
+/* from here */
+header {
+	height: 50px;
+	background-color: #2B2B2B;
+}
+header ul {
+	  margin: 0;
+  padding: 0;
+}
+header ul a {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	padding: 16px;
+}
+header li {
+	list-style: none;
+	display: inline-block;
+	width: auto;
+}
+header ul:after {
+}
+
+
+
+.main-header {
+  padding-bottom: 15%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+
+   position: relative;
+}
+
+/* Up to here is the implementation of the header part */
+.main-header img {
+	width: 13%;
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+}
+
+.about {
+	padding: 20px 0px;
+}
+.about h1 {
+	font-size: 1.5rem;
+}
+
+.about p {
+	font-size: 0.8rem;
+}
+
+
+
+.function {
+	background-color: #D3D3D3;
+	padding: 10px 0px;
+}
+.function-images {
+	display: flex;
+	    align-items: center;
+    justify-content: center;
+}
+.function-image {
+	margin: 2px 30px;
+}
+/* Up to here is the implementation of the function part */
+
+
+
+
+
+footer {
+	background-color: #283A4B;
+	height: 70px;
+	font-size: 0.8rem;
+	color: #fff;
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+}
+
+footer p {
+	text-align: center;
+}
+
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+
+
+
+
+
